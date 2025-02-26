@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+background-color: black;
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-optical-sizing: auto;
+  color: white;
+}
+.navbar {
+  padding: 0;
+
+  display: block;
+}
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:hover {
+  background-color: white;
+  color: white;
+}
+
+.nav-link {
+  margin: 0 20px;
+  color: white;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(255, 102, 0);
+  margin-left: 80px;
+}
+.navbar-brand:hover {
+  color: rgb(255, 102, 0);
+}
+.nav-link:hover {
+  color: rgb(255, 102, 0);
+  border-bottom: 2px solid rgb(255, 102, 0);
+}
+.nav-item {
+  margin: 0 20px;
+}
+
+.btn {
+  color: white;
+  margin-left: 10px;
+}
+.form-control::placeholder {
+  color: white;
+}
+.searchIcon {
+  font-size: 25px;
+  margin-top: 8px;
+  margin-left: 15px;
+  margin-right: 9px;
+}
+.searchIcon:hover {
+  color: rgb(255, 102, 0);
+}
+.now {
+  color: rgb(255, 102, 0);
+}
+.register {
+
+  position: absolute;
+  margin-left: 800px;
+  margin-bottom: 30px;
+  
+}
+.form-text {
+  color: white;
+}
+.btn {
+  font-weight: bold;
+  border-color: white;
+}
+.btn:hover {
+  font-weight: bold;
+
+  color: black;
+}
+.signUp {
+  text-decoration: none;
+  color: white;
+}
+h6 {
+  font-size: 15px;
+}
+h6:hover {
+  color: white;
+}
+span {
+  color: rgb(255, 102, 0);
+  font-weight: bold;
+}
+.limited {
+  font-size: xx-large;
+  margin-right: 790px;
+  margin-bottom: 50px;
+}
+.flex {
+  display: flex;
+}
+.object-cover {
+  height: 120px;
+}
+.feedback {
+  margin-left: 100px;
+  margin-bottom: 200px;
+  display: inline-block;
+}
+.send {
+  margin-left: 106px;
+}
+.detail {
+  position: absolute;
+  margin-top: 50px;
+  
+}
+.iconn {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 25px;
+}
+.iconn a {
+  margin-left: 20px;
+}
+.iconn a i:hover {
+  color: blue;
+}
+.fa-envelope:hover {
+  color: blue;
+}
+.team {
+  display: flex;
+}
+.slider {
+  margin-bottom: 0px;
+  height: 500px;
+  width: 500px;
+}
+.detail a{
+color: rgb(255, 102, 0);;
+}
